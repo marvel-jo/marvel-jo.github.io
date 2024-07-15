@@ -10,14 +10,14 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Marveljo Website"
+title                    : "Marveljo"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Marvel"
@@ -28,15 +28,15 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : false
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : Marvel
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -68,11 +68,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -105,26 +105,26 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : true
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Marveljo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I love **Python**, and programing, love to exploit, and making roblox games"
   location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "marvel.1314062@bpkpenabur.sch.id"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://marvel-jo.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -136,7 +136,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/@marvel25"
 
 # Site Footer
 footer:
